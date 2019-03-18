@@ -1,42 +1,40 @@
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-.container {
-    overflow: hidden;
-    width: 980px;
-    margin: 0 auto;
-    text-align: center;
-}
-.select {
-    width: 120px;
-    height: 50px;
-    display: block;
-    float: left;
+.header {
+    display: flex;
+    justify-content: space-between;
 }
 
-a {
-    float: right;
-    width: 40px;
-    height: 40px;
+.right-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4,
+.icon5 {
+    width: 20px;
+    height: 20px;
     display: block;
     margin-left: 10px;
-    background: url('./img/img_lights.jpg') no-repeat center;
 }
 
+.icon1 {
+    background: url('./img/email.png') no-repeat center;
+}
 
+.icon2 {
+    background: url('./img/Group.png') no-repeat center;
+}
 
+.icon3 {
+    background: url('./img/fb.png') no-repeat center;
+}
 
+.icon4 {
+    background: url('./img/twitter.png') no-repeat center;
+}
 
+.icon5 {
+    background: url('./img/youT.png') no-repeat center;
+}
