@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=cyrillic');
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header-wrap {
+    height: 148px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -16,7 +25,9 @@
     width: 20px;
     height: 20px;
     display: block;
+    margin: 0;
     margin-left: 10px;
+    padding: 0;
 }
 
 .icon1 {
@@ -37,4 +48,137 @@
 
 .icon5 {
     background: url('./img/youT.png') no-repeat center;
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-img {
+    background: url('./img/logo.png') no-repeat center;
+    width: 120px;
+    height: 88px;
+}
+
+.page-name {
+    width: 724px;
+    height: 67px;
+    line-height: normal;
+    color: #548A13;
+}
+
+.logos {
+    display: flex;
+    width: 389.85px;
+    height: 53.58px;
+}
+
+.text {
+    height: 10px;
+    width: 456px;
+    font-size: 8px;
+    margin-bottom: 6.42px;
+}
+
+.e-union,
+.gerb {
+    font-size: 6px;
+    text-align: center;
+}
+
+.e-union {
+    width: 103.78px;
+    height: 50.16px;
+}
+
+.gerb {
+    width: 90.08px;
+    height: 53.58px;
+    margin-left: 3.42px;
+}
+
+.kas {
+    background: url('./img/KAS.png') no-repeat center;
+    width: 88px;
+    height: 26px;
+    margin-left: 7.58px;
+}
+
+.biom {
+    background: url('./img/BIOM.png') no-repeat center;
+    width: 71.5px;
+    height: 26.5px;
+    margin-left: 17.57px;
+}
+
+nav {
+    width: 100%;
+    height: 42px;
+    background: #EEF5FD;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.left-sidebar {
+    width: 318px;
+    height: 2735px;
+}
+
+.nav {
+    width: 318px;
+    height: 186px;
+    font-size: 14;
+}
+
+.small-sidebar {
+    display: block;
+}
+
+.kto-my {
+    width: 318px;
+    height: 373px;
+}
+
+.kto-my p {
+    height: 62px;
+    width: 268px;
+}
+
+.kto-my-img {
+    margin-top: 22px;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media-icon {
+    height: 34.63px;
+    width: 129px;
+}
+
+.slide-nav {
+    height: 48.46px;
+    width: 113px;
+    margin-left: 49px;
+}
+
+.strat-prioritet {
+    margin-top: 22px;
+}
+
+.social-network {
+    margin-top: 23px;
+    width: 318px;
+    height: 575px;
+}
+
+.for-adm {
+    margin-top: 25px 0;
 }
